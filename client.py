@@ -7,7 +7,7 @@ if alias == "proadmin":
     password = input("enter the password :")
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('192.168.1.6', 4444))
+client.connect(('127.0.0.1', 4444))
 
 stop_thread = False
 
